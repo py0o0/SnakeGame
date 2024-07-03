@@ -1,4 +1,5 @@
 Snake Game
+
 C++ 프로그래밍 Ncurses 라이브러리를 사용하여 만든 SnakeGame 프로젝트 구현체 입니다.
 
 How to build
