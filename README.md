@@ -1,6 +1,15 @@
 Snake Game
 C++ 프로그래밍 Ncurses 라이브러리를 사용하여 만든 SnakeGame 프로젝트 구현체 입니다.
 
+How to build
+
+1. make 명령어를 입력하여 snakegame 실행 파일을 생성한다
+1-1. make가 없을 시 sudo apt install make (make install 명령어) 설치한다.
+2. ./snakegame 을 입력하면 게임이 시작된다.
+or
+1. make 가 정상적으로 작동 하지 않을 시 g++ -o main main.cpp -lncurses 로 컴파일 한
+후 ./main 으로 실행
+
 main.cpp
 - Snakegame 을 구현한 파일
   
@@ -28,12 +37,4 @@ function.h
 makefile
 - snakegame 실행을 위한 makefile
 
-How to build
-
-1. make 명령어를 입력하여 snakegame 실행 파일을 생성한다
-1-1. make가 없을 시 sudo apt install make (make install 명령어) 설치한다.
-2. ./snakegame 을 입력하면 게임이 시작된다.
-or
-1. make 가 정상적으로 작동 하지 않을 시 g++ -o main main.cpp -lncurses 로 컴파일 한
-후 ./main 으로 실행
 
